@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+</head>
+<body>
+  <p>  Find grade</p> <br>
+  <p id="demo"></p>
+
+  <script>
+function grade(marks) {
+  if(marks>75){
+  return "Distinction (A) " + " = " + marks;
+  }
+
+  else if(marks>60){
+  return "Very Good Passs (B) " + " = " + marks;
+  }
+
+
+
+  else if(marks>45){
+  return "Credit Pass(C) " + " = " + marks;
+  }
+
+
+  else{
+  return "Failure (F) " + " = " + marks;
+  }
+
+
+}
+document.getElementById("demo").innerHTML = grade(60);
+</script>
+
+
+</body>
+</html>

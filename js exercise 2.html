@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  
+</head>
+<body>
+  <p>   </p>
+  <button onclick="sum()"> please don't click me!</button>
+
+  <script>
+function sum(num1,num2,num3,num4,num5) {
+
+  if(num1>num2 && num1>num3 && num1>num4 && num1>num5){
+
+  alert("The Biggerst Number is a" + num1);
+  }
+
+  else if (num2>num3 && num2>num4 && num2>num5){
+   alert("The Biggerst Number is a" + num2);
+  }
+
+  else if(num3>num4 && num3>num5){
+   alert("The Biggerst Number is a" + num3);
+  }
+
+
+  else if(num4>num5){
+   alert("The Biggerst Number is a" + num4);
+  }
+
+  else {
+   alert("The Biggerst Number is a" + num5);
+  }
+
+
+}
+document.getElementById("demo").innerHTML = sum(2000,60,1000,8000,3500);
+</script>
+
+
+</body>
+</html>
